@@ -28,7 +28,7 @@ test:
   working_directoty:  ~/rails-docker-study/src
   steps:
     - checkout:
-        path: :  ~/rails_docker
+        path: ~/rails_docker
     - ruby/install-deps
     - run:
         name: Database setup
